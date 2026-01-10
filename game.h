@@ -48,16 +48,18 @@ typedef struct {
 
 // Monster functions
 void freeMonster(void* data);
-int compareMonsters(void* a, void* b);
+cmpValue compareMonsters(void* a, void* b);
 void printMonster(void* data);
 
 // Item functions
 void freeItem(void* data);
-int compareItems(void* a, void* b);
+cmpValue compareItems(void* a, void* b);
 void printItem(void* data);
 
 // Game functions
 void addRoom(GameState* g);
+Room* findRoomById(GameState *g, int id);
+Room* findRoomByPos(GameState *g, int x, int y);
 void initPlayer(GameState* g);
 void playGame(GameState* g);
 void freeGame(GameState* g);

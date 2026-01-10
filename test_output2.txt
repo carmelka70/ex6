@@ -1,0 +1,498 @@
+
+=== MENU ===
+1.Add Room
+2.Init Player
+3.Play
+4.Exit
+Choice: Add monster? (1=Yes, 0=No): Monster name: Type (0-4): HP: Attack: Add item? (1=Yes, 0=No): Item name: Type (0=Armor, 1=Sword): Value: Created room 0 at (0,0)
+
+=== MENU ===
+1.Add Room
+2.Init Player
+3.Play
+4.Exit
+Choice: === SPATIAL MAP ===
+[ 0]
+=== ROOM LEGEND ===
+ID 0: [M:V] [I:V]
+===================
+Attach to room ID: Direction (0=Up,1=Down,2=Left,3=Right): Add monster? (1=Yes, 0=No): Add item? (1=Yes, 0=No): Created room 1 at (1,0)
+
+=== MENU ===
+1.Add Room
+2.Init Player
+3.Play
+4.Exit
+Choice: === SPATIAL MAP ===
+[ 0][ 1]
+=== ROOM LEGEND ===
+ID 1: [M:X] [I:X]
+ID 0: [M:V] [I:V]
+===================
+Attach to room ID: Direction (0=Up,1=Down,2=Left,3=Right): Add monster? (1=Yes, 0=No): Add item? (1=Yes, 0=No): Created room 2 at (2,0)
+
+=== MENU ===
+1.Add Room
+2.Init Player
+3.Play
+4.Exit
+Choice: === SPATIAL MAP ===
+[ 0][ 1][ 2]
+=== ROOM LEGEND ===
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:V] [I:V]
+===================
+Attach to room ID: Direction (0=Up,1=Down,2=Left,3=Right): Add monster? (1=Yes, 0=No): Add item? (1=Yes, 0=No): Created room 3 at (0,1)
+
+=== MENU ===
+1.Add Room
+2.Init Player
+3.Play
+4.Exit
+Choice: === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]        
+=== ROOM LEGEND ===
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:V] [I:V]
+===================
+Attach to room ID: Direction (0=Up,1=Down,2=Left,3=Right): Add monster? (1=Yes, 0=No): Monster name: Type (0-4): HP: Attack: Add item? (1=Yes, 0=No): Created room 4 at (2,1)
+
+=== MENU ===
+1.Add Room
+2.Init Player
+3.Play
+4.Exit
+Choice: === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+=== ROOM LEGEND ===
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:V] [I:V]
+===================
+Attach to room ID: Direction (0=Up,1=Down,2=Left,3=Right): Add monster? (1=Yes, 0=No): Add item? (1=Yes, 0=No): Created room 5 at (0,2)
+
+=== MENU ===
+1.Add Room
+2.Init Player
+3.Play
+4.Exit
+Choice: === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5]        
+=== ROOM LEGEND ===
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:V] [I:V]
+===================
+Attach to room ID: Direction (0=Up,1=Down,2=Left,3=Right): Add monster? (1=Yes, 0=No): Add item? (1=Yes, 0=No): Created room 6 at (1,2)
+
+=== MENU ===
+1.Add Room
+2.Init Player
+3.Play
+4.Exit
+Choice: === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6]    
+=== ROOM LEGEND ===
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:V] [I:V]
+===================
+Attach to room ID: Direction (0=Up,1=Down,2=Left,3=Right): Add monster? (1=Yes, 0=No): Add item? (1=Yes, 0=No): Item name: Type (0=Armor, 1=Sword): Value: Created room 7 at (2,2)
+
+=== MENU ===
+1.Add Room
+2.Init Player
+3.Play
+4.Exit
+Choice: 
+=== MENU ===
+1.Add Room
+2.Init Player
+3.Play
+4.Exit
+Choice: === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:V] [I:V]
+===================
+
+--- Room 0 ---
+Monster: Goblin (HP:20)
+Item: Sword1
+HP: 200/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+Kill monster first
+=== SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:V] [I:V]
+===================
+
+--- Room 0 ---
+Monster: Goblin (HP:20)
+Item: Sword1
+HP: 200/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+Kill monster first
+=== SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:V] [I:V]
+===================
+
+--- Room 0 ---
+Monster: Goblin (HP:20)
+Item: Sword1
+HP: 200/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+You deal 15 damage. Monster HP: 5
+Monster deals 3 damage. Your HP: 197
+You deal 15 damage. Monster HP: 0
+Monster defeated!
+=== SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:V]
+===================
+
+--- Room 0 ---
+Item: Sword1
+HP: 197/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+No monster
+=== SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:V]
+===================
+
+--- Room 0 ---
+Item: Sword1
+HP: 197/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+Picked up Sword1
+=== SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:X]
+===================
+
+--- Room 0 ---
+HP: 197/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+No item here
+=== SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:X]
+===================
+
+--- Room 0 ---
+HP: 197/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+Direction (0=Up,1=Down,2=Left,3=Right): === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:X]
+===================
+
+--- Room 3 ---
+HP: 197/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+Direction (0=Up,1=Down,2=Left,3=Right): === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:X]
+===================
+
+--- Room 5 ---
+HP: 197/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+Direction (0=Up,1=Down,2=Left,3=Right): === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:X]
+===================
+
+--- Room 6 ---
+HP: 197/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+Direction (0=Up,1=Down,2=Left,3=Right): === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:X]
+===================
+
+--- Room 7 ---
+Item: Sword1
+HP: 197/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+Duplicate item.
+=== SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:X]
+===================
+
+--- Room 7 ---
+Item: Sword1
+HP: 197/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+
+=== MENU ===
+1.Add Room
+2.Init Player
+3.Play
+4.Exit
+Choice: === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3]    [ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:X]
+===================
+Attach to room ID: Direction (0=Up,1=Down,2=Left,3=Right): Add monster? (1=Yes, 0=No): Add item? (1=Yes, 0=No): Created room 8 at (1,1)
+
+=== MENU ===
+1.Add Room
+2.Init Player
+3.Play
+4.Exit
+Choice: === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3][ 8][ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 8: [M:X] [I:X]
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:X]
+===================
+
+--- Room 7 ---
+Item: Sword1
+HP: 197/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+Direction (0=Up,1=Down,2=Left,3=Right): === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3][ 8][ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 8: [M:X] [I:X]
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:V] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:X]
+===================
+
+--- Room 4 ---
+Monster: Spider (HP:25)
+HP: 197/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+You deal 15 damage. Monster HP: 10
+Monster deals 4 damage. Your HP: 193
+You deal 15 damage. Monster HP: 0
+Monster defeated!
+=== SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3][ 8][ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 8: [M:X] [I:X]
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:X] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:X]
+===================
+
+--- Room 4 ---
+HP: 193/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+Direction (0=Up,1=Down,2=Left,3=Right): === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3][ 8][ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 8: [M:X] [I:X]
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:X] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:X]
+===================
+
+--- Room 2 ---
+HP: 193/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+Direction (0=Up,1=Down,2=Left,3=Right): === SPATIAL MAP ===
+[ 0][ 1][ 2]
+[ 3][ 8][ 4]
+[ 5][ 6][ 7]
+=== ROOM LEGEND ===
+ID 8: [M:X] [I:X]
+ID 7: [M:X] [I:V]
+ID 6: [M:X] [I:X]
+ID 5: [M:X] [I:X]
+ID 4: [M:X] [I:X]
+ID 3: [M:X] [I:X]
+ID 2: [M:X] [I:X]
+ID 1: [M:X] [I:X]
+ID 0: [M:X] [I:X]
+===================
+
+--- Room 1 ---
+HP: 193/200
+1.Move 2.Fight 3.Pickup 4.Bag 5.Defeated 6.Quit
+Direction (0=Up,1=Down,2=Left,3=Right): ***************************************
+             VICTORY!                  
+All rooms explored. All monsters defeated.
+***************************************
